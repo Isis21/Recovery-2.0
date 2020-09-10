@@ -1,7 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 
-
+.homepage {
+	background-image: url("randalyn-hill.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+}
+.otherpage {
+	background-image: url("Magical Clouds.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+} 
 .navbar {
 	font-family: Arial;
 	color: white;
@@ -11,12 +24,7 @@
 	padding: 30px;
 	font-weight: bold;
 }
-body {
-	background-image: url("randalyn-hill.jpg");
-	background-attachment:fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
+
 .navbar a {
 	color: #362D70;
 	padding: 16px 20px
@@ -74,18 +82,18 @@ body {
 .main {
     text-align: center;
     position: absolute;
-    top: 150px;
-    left: 250px;
     color:#884477 ;
     background-color: #B6AFA5;
     padding: 0px 20px;
 	font-size: 20px;
 	font-family: helvetica;
+	margin-left: 400px;
+	margin-right: 400px;
 }
 .main-spon {
-	margin-left: 200px;
+	margin-left: 400px;
+	margin-right: 200px;
 	position: absolute;
-	top: 180%;
 	background-color: #B6AFA5;
 	color:#884477;
 	text-align: center;
@@ -94,28 +102,32 @@ body {
 	
 }
 .main-supp {
-	margin-left: 200px;
+	margin-left: 400px;
 	position: absolute;
 	top: 180%;
 	background-color: #B6AFA5;
 	color:#884477;
 	text-align: center;
 	font-family: helvetica;
-	font-size: 20px
+	font-size: 20px;
+	margin-right: 200px;
 }
 .main-line {
-	margin-left: 200px;
+	margin-left: 400px;
 	position: absolute;
-	top: 180%;
+	top: 0;
 	background-color: #B6AFA5;
 	color:#884477;
 	text-align: center;
 	font-family: helvetica;
 	font-size: 18px;
+	margin-right: 200px;
+	
 	
 }
 .main-pledge {
-	margin-left: 200px;
+	margin-left: 400px;
+	margin-right: 200px;
 	position: absolute;
 	top: 180%;
 	background-color: #B6AFA5;
@@ -125,13 +137,14 @@ body {
 	font-size: 18px;
 }
 .steps {
-	background-color: black;
-	margin-left: 20%;
-	color: white;
+	margin-left: 400px;
+	margin-right: 200px;
+	position: absolute;
+	background-color: #B6AFA5;
+	color:#884477;
 	text-align: center;
-	width: 800px;
-	padding:10px;
-	font-size: 20px;
+	font-family: helvetica;
+	font-size: 18px;
 }
 h1 {
 	font-weight: bold;
@@ -165,26 +178,28 @@ h1 {
 	.main-spon {
 		padding: 10px;
 		position: absolute;
-		right: 10%;
+		top: 50px;
 		width: auto;
 		margin: auto;
 	}
 	.main-supp {
 		padding: 10px;
 		position: absolute;
-		right: 10%;
+		top: 50px;
 		width: auto;
 		margin: auto;
 	}
 	.main-line {
 		padding: 10px;
 		position: absolute;
+		top: 50px;
 		width: auto;
 		margin: auto;
 	}
 	.main-pledge {
 		padding: 10px;
 		position: absolute;
+		top: 50px;
 		width: auto;
 		margin: auto;
 	}
@@ -219,17 +234,19 @@ h1 {
 	.active:hover {
 		background-color: red;
 	}
-}
+
 	.steps{
-		display: block;
-		right: 20%;
-		width: 250px;
-		top: 150%;
+		left: 0;
+		position: absolute;
+		font-size: 20px;
+		width: auto;
+		margin: auto;
+		top: 50px
 	}
 .container_mobile, .container_pc {
 	position: relative;
 }
-
+}
 
 @media screen and ( min-width : 621px ){
 	.topnav_mobile {
