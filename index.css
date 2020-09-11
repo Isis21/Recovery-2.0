@@ -156,7 +156,7 @@ h1 {
 	.homepage {
 		background-image: url("randalyn-hill.jpg");
 		background-repeat: no-repeat;
-		
+		background-size:100% 100%;
 		background-position: center;
 		background-attachment: fixed;
 	}
