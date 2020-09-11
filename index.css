@@ -153,7 +153,7 @@ h1 {
 }
 @media screen and ( min-width : 300px ) and (max-width : 620px ){
 	
-	body {
+	.homepage {
 		background-image: url("randalyn-hill.jpg");
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
